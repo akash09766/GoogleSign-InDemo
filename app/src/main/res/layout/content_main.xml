@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="gendevs.com.googlesign_indemo.activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_iv_id"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/user"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+    <LinearLayout
+        android:id="@+id/id_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/user_iv_id"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_tv"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="ID "
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=": "
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/id_tv_value_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="text"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/displayname_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_view"
+        android:layout_below="@+id/id_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/displayname_tv"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Name "
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=": "
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/displayname_tv_value_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="text"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/id_view"
+        android:layout_below="@+id/displayname_view"
+        android:visibility="invisible"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/email_tv"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Email ID "
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=": "
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/email_tv_value_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="text"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

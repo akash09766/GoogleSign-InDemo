@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "lucky-outpost-121504",
+    "project_number": "268564947139",
+    "name": "GoogleSignInDemo"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268564947139:android:6ac2ece5a4257cb7",
+        "client_id": "android:gendevs.com.googlesign_indemo",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "gendevs.com.googlesign_indemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268564947139-mqbq5pcgja8m2l79tfg8bdatu19apl06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gendevs.com.googlesign_indemo",
+            "certificate_hash": "5B0ABCF88760A9E9D02AEFEA5DB1AC4ABFF6E26E"
+          }
+        },
+        {
+          "client_id": "268564947139-ia3cl133o85hiv2r837u5cls6qtas964.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
